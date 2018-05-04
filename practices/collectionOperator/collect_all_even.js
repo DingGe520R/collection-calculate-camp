@@ -9,7 +9,7 @@ function collect_all_even(collection) {
    }
  }
 
- return result;;
+ return result;
 }
 
 module.exports = collect_all_even;
