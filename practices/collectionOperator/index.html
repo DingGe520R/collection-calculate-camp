@@ -11,14 +11,20 @@
 <body>
   <script type="text/javascript">
     var r = [];
-    var n = 97;
-    var k = 0;
-    for (var i = 0; i < 5; i++) {
-      k = String.fromCharCode(n);
-      r.push(k);
-      n++;
+    var collection_a = [10, 27, 28, 19, 5];
+    var collection_b = [5, 78, 28, 19, 23];
+    for (var i = 0; i < collection_a.length; i++) {
+      r.push(collection_a[i]);
     }
-    document.write(r);
+    for (var i = 0; i < collection_b.length; i++) {
+      if (!collection_a.includes(collection_b[i])){
+        r.push(collection_b[i]);
+      }
+
+  }
+
+ 
+      document.write(r);
   </script>
 </body>
 
