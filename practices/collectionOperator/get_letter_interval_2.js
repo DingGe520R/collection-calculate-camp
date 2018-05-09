@@ -1,10 +1,6 @@
 'use strict';
 
 function get_letter_interval_2(number_a, number_b) {
-  //在这里写入代码
-
-  //var a= number_a;
-  //var b= number_b;
   var r = [];
   var letter = ["", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
