@@ -10,21 +10,14 @@
 
 <body>
     <script type="text/javascript">
-
-    var collection = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-        var r = [];
-            var sum = 0, aver;
-            for (var i of collection) {
-                sum += i;
-            }
-            aver = Math.ceil(sum / collection.length);
-
-       
-
-
-      console.log(aver);
-
-</script>
+     var collection = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21];//每一个数与下一个数相加，乘以3,最后一个数不算
+     let r=[];
+     for(let i=0;i< collection.length-1;i++)
+     {
+        r.push((collection[i]+collection[i+1])*3)
+     }
+            console.log(r);
+    </script>
 </body>
 
 </html>
